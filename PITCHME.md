@@ -15,9 +15,11 @@
 
 ### Constraints
 
-param0 - 20 characters
+param0 - 50 characters
 param1 - 50 characters
-param2 - 50 characters
+param2 - 20 characters
+
+and so on...
 
 #HSLIDE
 
