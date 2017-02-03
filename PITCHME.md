@@ -72,8 +72,8 @@ SELECT <STH> from <STH> where param1 = '<PARAM1>'
 ### Single-line comment and payload
 
 ```sql
-//SELECT * from table where name like '%<PAYLOAD>%'
-//PAYLOAD = %'--
+--SELECT * from table where name like '%<PAYLOAD>%'
+--PAYLOAD = %'--
 SELECT * from table where name like '%%'--%'
 ```
 
