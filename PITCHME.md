@@ -95,7 +95,7 @@ Good if each parameter would be in separate line, but then new lines, empty spac
 SELECT * from table where 
     /* 
        here is the first condition
-    */ name like '...' and /* Here 
+    */ name like '...' /* Here 
     is the second param */
     and gender = '...'
 ```
