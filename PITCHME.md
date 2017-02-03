@@ -171,6 +171,10 @@ SELECT * from table where param0 = '50_CHARS-suff0_PLUS_50CHARS_MINUS_suff1_PLUS
 
 - split sqlmap's payload - white chars
 - concatenate parts until **len<50-len(suffix0)**, that is `param0`
-- concatenate parts until **len<50-len(suffix1)-len(prefix1)**
+- concatenate parts until **len<50-len(suffix1)-len(prefix1)** that is `param1`
 - and so on for more parameters
+
+#HSLIDE
+
+### Thank you!
 
