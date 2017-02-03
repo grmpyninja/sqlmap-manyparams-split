@@ -11,7 +11,12 @@
 ### Vulnerable page
 
 - web app with filtering capabilities
-- basic test `' or '1'='1` returned more results
+- basic test returned more results
+
+```sql
+' or '1'='1
+```
+
 - burp potential finding listed
 - sqlmap failed to confirm the vulnerability, due to constraints
 
