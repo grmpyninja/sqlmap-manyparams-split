@@ -1,6 +1,8 @@
 #HSLIDE
 
-### SQL injection in many parameters
+### <span style="color: #D80000; text-transform: none">SQL</span>injection in many parameters (2017)
+
+![sqli-icon](http://ways2hack.com/wp-content/uploads/2015/02/sql-injection.gif)
 
 #HSLIDE
 
@@ -15,9 +17,9 @@
 
 ### Constraints
 
-- param0 - 50 characters
-- param1 - 50 characters
-- param2 - 20 characters
+- param0 -- 50 characters
+- param1 -- 50 characters
+- param2 -- 20 characters
 
 and so on...
 
