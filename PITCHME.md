@@ -15,9 +15,9 @@
 
 ### Constraints
 
-param0 - 50 characters
-param1 - 50 characters
-param2 - 20 characters
+- param0 - 50 characters
+- param1 - 50 characters
+- param2 - 20 characters
 
 and so on...
 
@@ -26,7 +26,8 @@ and so on...
 ### Guessing phase
 
 ```
-SELECT <STH> from <STH> where param1 = '<PARAM1>' and param2 = '<PARAM2>'
+SELECT <STH> from <STH> where param1 = '<PARAM1>' 
+    and param2 = '<PARAM2>'
     and param3 = '<PARAM3>' and ......
 ```
 
@@ -70,9 +71,9 @@ SELECT <STH> from <STH> where param1 = '<PARAM1>' and param2 = '<PARAM2>'
 
 ### Single-line comment and payload
 
-```
-# SELECT * from table where name like '%<PAYLOAD>%'
-# PAYLOAD = %'--
+```sql
+//SELECT * from table where name like '%<PAYLOAD>%'
+//PAYLOAD = %'--
 SELECT * from table where name like '%%'--%'
 ```
 
@@ -90,7 +91,7 @@ Good if each parameter would be in separate line, but then new lines, empty spac
 /* multi
    iline */
 
-# Fragmented
+//Fragmented
 SELECT * from table where 
     /* 
        here is the first condition
