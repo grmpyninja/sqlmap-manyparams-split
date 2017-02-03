@@ -1,8 +1,10 @@
 #HSLIDE
 
-### <span style="color: #D80000; text-transform: none">SQL</span>injection in many parameters (2017)
-
 ![sqli-icon](http://ways2hack.com/wp-content/uploads/2015/02/sql-injection.gif)
+
+### in many parameters 
+
+#### Year 2017
 
 #HSLIDE
 
