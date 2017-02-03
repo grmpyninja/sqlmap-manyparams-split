@@ -102,7 +102,9 @@ SELECT * from table where
 
 #HSLIDE
 
-### It can be useful, but how to glue it together?
+### It can be useful
+
+#### but how to glue it together?
 
 - concatenate many parameters
 - figure out the order
@@ -121,6 +123,8 @@ Used single-line comment to figure out the order
 SELECT * from table where param0 = '<PAYLOAD0>' and param1 = '<PAYLOAD1>'
 ```
 
+#HSLIDE
+
 ### Tests and conclusions
 
 - PAYLOAD0=Bad & PAYLOAD1=Good & query-status='SQL error, blind error, syntax error'
@@ -129,7 +133,6 @@ SELECT * from table where param0 = '<PAYLOAD0>' and param1 = '<PAYLOAD1>'
     - PAYLOAD0 commented out the line and prevented syntax error
 
 #HSLIDE
-
 
 ### So the final payload? (1)
 
@@ -142,6 +145,7 @@ SELECT * from table
 -- PREFIX1 = */
 -- SUFFIX1 = '--
 ```
+#HSLIDE
 
 ### So the final payload? (2)
 
