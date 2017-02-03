@@ -96,7 +96,7 @@ SELECT * from table where
     /* 
        here is the first condition
     */ name like '...' and /* Here 
-    is the second param /*
+    is the second param */
     and gender = '...'
 ```
 
